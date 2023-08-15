@@ -7,6 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D05385762A8C0B920066DA07 /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385752A8C0B920066DA07 /* DeviceViewModel.swift */; };
+		D05385782A8C0BA40066DA07 /* ServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385772A8C0BA40066DA07 /* ServiceViewModel.swift */; };
+		D053857A2A8C0BB40066DA07 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385792A8C0BB40066DA07 /* ProductsViewModel.swift */; };
+		D053857D2A8C0BDD0066DA07 /* DeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053857C2A8C0BDD0066DA07 /* DeviceModel.swift */; };
+		D053857F2A8C0BF00066DA07 /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053857E2A8C0BF00066DA07 /* ServiceModel.swift */; };
+		D05385812A8C0C080066DA07 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385802A8C0C080066DA07 /* ProductModel.swift */; };
+		D05385852A8C0C5A0066DA07 /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385842A8C0C5A0066DA07 /* SupportView.swift */; };
+		D05385872A8C0C690066DA07 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385862A8C0C690066DA07 /* MapView.swift */; };
+		D05385892A8C0C760066DA07 /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385882A8C0C760066DA07 /* ActivityView.swift */; };
+		D053858B2A8C0C8C0066DA07 /* MapSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053858A2A8C0C8C0066DA07 /* MapSearchView.swift */; };
+		D053858D2A8C0C9D0066DA07 /* MapListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053858C2A8C0C9D0066DA07 /* MapListView.swift */; };
+		D053858F2A8C0CAC0066DA07 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053858E2A8C0CAC0066DA07 /* ProductListView.swift */; };
+		D05385932A8C0CDC0066DA07 /* Subscriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385922A8C0CDC0066DA07 /* Subscriptions.swift */; };
+		D05385952A8C0CEB0066DA07 /* Coverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385942A8C0CEB0066DA07 /* Coverage.swift */; };
+		D05385972A8C0CFD0066DA07 /* DeviceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385962A8C0CFD0066DA07 /* DeviceView.swift */; };
+		D05385992A8C0D130066DA07 /* ServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385982A8C0D130066DA07 /* ServiceView.swift */; };
+		D053859B2A8C0D620066DA07 /* Password.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053859A2A8C0D620066DA07 /* Password.swift */; };
+		D053859E2A8C0D9F0066DA07 /* ShowListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053859D2A8C0D9F0066DA07 /* ShowListButton.swift */; };
+		D05385A02A8C0DB50066DA07 /* SearchHereButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D053859F2A8C0DB50066DA07 /* SearchHereButton.swift */; };
+		D05385A22A8C0DC60066DA07 /* SupportBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385A12A8C0DC60066DA07 /* SupportBar.swift */; };
+		D05385A42A8C0DD70066DA07 /* DevicesCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385A32A8C0DD70066DA07 /* DevicesCard.swift */; };
+		D05385A62A8C0DE70066DA07 /* SupportToolsButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385A52A8C0DE70066DA07 /* SupportToolsButtons.swift */; };
+		D05385A82A8C0DF30066DA07 /* divider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385A72A8C0DF30066DA07 /* divider.swift */; };
+		D05385AA2A8C0E020066DA07 /* ServiceCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385A92A8C0E020066DA07 /* ServiceCard.swift */; };
+		D05385AC2A8C0E120066DA07 /* Scroll VIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385AB2A8C0E120066DA07 /* Scroll VIew.swift */; };
+		D05385AE2A8C0E220066DA07 /* ServicesScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385AD2A8C0E220066DA07 /* ServicesScrollView.swift */; };
+		D05385B02A8C0E310066DA07 /* ProductsScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385AF2A8C0E310066DA07 /* ProductsScrollView.swift */; };
+		D05385B22A8C0E3E0066DA07 /* ProductCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385B12A8C0E3E0066DA07 /* ProductCard.swift */; };
 		D0D360582A8C07770078C18A /* SupportAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D360572A8C07770078C18A /* SupportAppApp.swift */; };
 		D0D3605A2A8C07770078C18A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0D360592A8C07770078C18A /* ContentView.swift */; };
 		D0D3605C2A8C07780078C18A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0D3605B2A8C07780078C18A /* Assets.xcassets */; };
@@ -14,6 +42,34 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D05385752A8C0B920066DA07 /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
+		D05385772A8C0BA40066DA07 /* ServiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewModel.swift; sourceTree = "<group>"; };
+		D05385792A8C0BB40066DA07 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
+		D053857C2A8C0BDD0066DA07 /* DeviceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceModel.swift; sourceTree = "<group>"; };
+		D053857E2A8C0BF00066DA07 /* ServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceModel.swift; sourceTree = "<group>"; };
+		D05385802A8C0C080066DA07 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		D05385842A8C0C5A0066DA07 /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
+		D05385862A8C0C690066DA07 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		D05385882A8C0C760066DA07 /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		D053858A2A8C0C8C0066DA07 /* MapSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSearchView.swift; sourceTree = "<group>"; };
+		D053858C2A8C0C9D0066DA07 /* MapListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapListView.swift; sourceTree = "<group>"; };
+		D053858E2A8C0CAC0066DA07 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		D05385922A8C0CDC0066DA07 /* Subscriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscriptions.swift; sourceTree = "<group>"; };
+		D05385942A8C0CEB0066DA07 /* Coverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coverage.swift; sourceTree = "<group>"; };
+		D05385962A8C0CFD0066DA07 /* DeviceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceView.swift; sourceTree = "<group>"; };
+		D05385982A8C0D130066DA07 /* ServiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceView.swift; sourceTree = "<group>"; };
+		D053859A2A8C0D620066DA07 /* Password.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Password.swift; sourceTree = "<group>"; };
+		D053859D2A8C0D9F0066DA07 /* ShowListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowListButton.swift; sourceTree = "<group>"; };
+		D053859F2A8C0DB50066DA07 /* SearchHereButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHereButton.swift; sourceTree = "<group>"; };
+		D05385A12A8C0DC60066DA07 /* SupportBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportBar.swift; sourceTree = "<group>"; };
+		D05385A32A8C0DD70066DA07 /* DevicesCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesCard.swift; sourceTree = "<group>"; };
+		D05385A52A8C0DE70066DA07 /* SupportToolsButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportToolsButtons.swift; sourceTree = "<group>"; };
+		D05385A72A8C0DF30066DA07 /* divider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = divider.swift; sourceTree = "<group>"; };
+		D05385A92A8C0E020066DA07 /* ServiceCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCard.swift; sourceTree = "<group>"; };
+		D05385AB2A8C0E120066DA07 /* Scroll VIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Scroll VIew.swift"; sourceTree = "<group>"; };
+		D05385AD2A8C0E220066DA07 /* ServicesScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesScrollView.swift; sourceTree = "<group>"; };
+		D05385AF2A8C0E310066DA07 /* ProductsScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsScrollView.swift; sourceTree = "<group>"; };
+		D05385B12A8C0E3E0066DA07 /* ProductCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCard.swift; sourceTree = "<group>"; };
 		D0D360542A8C07770078C18A /* SupportApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupportApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0D360572A8C07770078C18A /* SupportAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportAppApp.swift; sourceTree = "<group>"; };
 		D0D360592A8C07770078C18A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,9 +88,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D05385742A8C0B6E0066DA07 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				D05385752A8C0B920066DA07 /* DeviceViewModel.swift */,
+				D05385772A8C0BA40066DA07 /* ServiceViewModel.swift */,
+				D05385792A8C0BB40066DA07 /* ProductsViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		D053857B2A8C0BD20066DA07 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D053857C2A8C0BDD0066DA07 /* DeviceModel.swift */,
+				D053857E2A8C0BF00066DA07 /* ServiceModel.swift */,
+				D05385802A8C0C080066DA07 /* ProductModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D05385832A8C0C360066DA07 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D05385842A8C0C5A0066DA07 /* SupportView.swift */,
+				D05385862A8C0C690066DA07 /* MapView.swift */,
+				D05385882A8C0C760066DA07 /* ActivityView.swift */,
+				D053858A2A8C0C8C0066DA07 /* MapSearchView.swift */,
+				D053858C2A8C0C9D0066DA07 /* MapListView.swift */,
+				D053858E2A8C0CAC0066DA07 /* ProductListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D05385912A8C0CC40066DA07 /* Sheets */ = {
+			isa = PBXGroup;
+			children = (
+				D05385922A8C0CDC0066DA07 /* Subscriptions.swift */,
+				D05385942A8C0CEB0066DA07 /* Coverage.swift */,
+				D05385962A8C0CFD0066DA07 /* DeviceView.swift */,
+				D05385982A8C0D130066DA07 /* ServiceView.swift */,
+				D053859A2A8C0D620066DA07 /* Password.swift */,
+			);
+			path = Sheets;
+			sourceTree = "<group>";
+		};
+		D053859C2A8C0D870066DA07 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D053859D2A8C0D9F0066DA07 /* ShowListButton.swift */,
+				D053859F2A8C0DB50066DA07 /* SearchHereButton.swift */,
+				D05385A12A8C0DC60066DA07 /* SupportBar.swift */,
+				D05385A32A8C0DD70066DA07 /* DevicesCard.swift */,
+				D05385A52A8C0DE70066DA07 /* SupportToolsButtons.swift */,
+				D05385A72A8C0DF30066DA07 /* divider.swift */,
+				D05385A92A8C0E020066DA07 /* ServiceCard.swift */,
+				D05385AB2A8C0E120066DA07 /* Scroll VIew.swift */,
+				D05385AD2A8C0E220066DA07 /* ServicesScrollView.swift */,
+				D05385AF2A8C0E310066DA07 /* ProductsScrollView.swift */,
+				D05385B12A8C0E3E0066DA07 /* ProductCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		D0D3604B2A8C07770078C18A = {
 			isa = PBXGroup;
 			children = (
+				D053859C2A8C0D870066DA07 /* Components */,
+				D05385912A8C0CC40066DA07 /* Sheets */,
+				D05385832A8C0C360066DA07 /* Views */,
+				D053857B2A8C0BD20066DA07 /* Models */,
+				D05385742A8C0B6E0066DA07 /* View Models */,
 				D0D360562A8C07770078C18A /* SupportApp */,
 				D0D360552A8C07770078C18A /* Products */,
 			);
@@ -137,8 +261,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D05385892A8C0C760066DA07 /* ActivityView.swift in Sources */,
+				D05385A62A8C0DE70066DA07 /* SupportToolsButtons.swift in Sources */,
+				D05385762A8C0B920066DA07 /* DeviceViewModel.swift in Sources */,
+				D053858F2A8C0CAC0066DA07 /* ProductListView.swift in Sources */,
+				D053858D2A8C0C9D0066DA07 /* MapListView.swift in Sources */,
+				D05385AC2A8C0E120066DA07 /* Scroll VIew.swift in Sources */,
 				D0D3605A2A8C07770078C18A /* ContentView.swift in Sources */,
+				D05385B02A8C0E310066DA07 /* ProductsScrollView.swift in Sources */,
+				D05385952A8C0CEB0066DA07 /* Coverage.swift in Sources */,
+				D05385782A8C0BA40066DA07 /* ServiceViewModel.swift in Sources */,
+				D05385AE2A8C0E220066DA07 /* ServicesScrollView.swift in Sources */,
+				D053859B2A8C0D620066DA07 /* Password.swift in Sources */,
+				D05385932A8C0CDC0066DA07 /* Subscriptions.swift in Sources */,
+				D053857A2A8C0BB40066DA07 /* ProductsViewModel.swift in Sources */,
+				D05385A42A8C0DD70066DA07 /* DevicesCard.swift in Sources */,
+				D053858B2A8C0C8C0066DA07 /* MapSearchView.swift in Sources */,
+				D053857F2A8C0BF00066DA07 /* ServiceModel.swift in Sources */,
 				D0D360582A8C07770078C18A /* SupportAppApp.swift in Sources */,
+				D05385852A8C0C5A0066DA07 /* SupportView.swift in Sources */,
+				D05385872A8C0C690066DA07 /* MapView.swift in Sources */,
+				D053857D2A8C0BDD0066DA07 /* DeviceModel.swift in Sources */,
+				D053859E2A8C0D9F0066DA07 /* ShowListButton.swift in Sources */,
+				D05385812A8C0C080066DA07 /* ProductModel.swift in Sources */,
+				D05385B22A8C0E3E0066DA07 /* ProductCard.swift in Sources */,
+				D05385992A8C0D130066DA07 /* ServiceView.swift in Sources */,
+				D05385972A8C0CFD0066DA07 /* DeviceView.swift in Sources */,
+				D05385A02A8C0DB50066DA07 /* SearchHereButton.swift in Sources */,
+				D05385A22A8C0DC60066DA07 /* SupportBar.swift in Sources */,
+				D05385A82A8C0DF30066DA07 /* divider.swift in Sources */,
+				D05385AA2A8C0E020066DA07 /* ServiceCard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

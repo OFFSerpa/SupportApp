@@ -1,21 +1,32 @@
 //
 //  ContentView.swift
-//  SupportApp
+//  SupportCopy
 //
-//  Created by Vinicius Serpa on 15/08/23.
+//  Created by Vinicius Serpa on 14/08/23.
 //
 
 import SwiftUI
 
 struct ContentView: View {
+    
+ 
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView{
+            SupportView()
+                .tabItem{
+                    Label("Suporte", systemImage: "square.grid.2x2.fill")
+                }
+            MapView()
+                .tabItem{
+                    Label("Localizações", systemImage: "mappin.and.ellipse")
+                }
+            ActivityView()
+                .tabItem {
+                    Label("Atividade", systemImage: "clock.fill")
+                }
         }
-        .padding()
+        
     }
 }
 
