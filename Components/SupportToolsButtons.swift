@@ -50,7 +50,7 @@ struct SupportToolsButtons: View {
                 ZStack{
                     HStack() {
                         Image(systemName: "rectangle.and.pencil.and.ellipsis")
-                            .symbolRenderingMode(.palette)
+//                            .symbolRenderingMode(.palette)
                             .foregroundStyle(Color.blue, Color.gray)
                             .font(.largeTitle)
                             .padding(.trailing, 10)
