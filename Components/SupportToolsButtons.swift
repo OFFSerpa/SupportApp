@@ -42,7 +42,6 @@ struct SupportToolsButtons: View {
             }
             .sheet(isPresented: $subscription){
                 Subscriptions()
-  
             }
             Button {
                 password = true
