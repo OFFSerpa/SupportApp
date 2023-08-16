@@ -11,6 +11,9 @@ import SwiftUI
 
 struct SupportView: View {
     
+    @State var profile = false
+    
+    
     
     var body: some View {
         
@@ -80,7 +83,7 @@ struct SupportView: View {
                             .fontWeight(.semibold)
                         Image(systemName: "chevron.right")
                             .foregroundColor(.secondary)
-                            .padding(.trailing, 220)
+                            .padding(.trailing, 195)
                     }
                     
                     ProductsScrollView(productViewModel: ProductViewModel())
@@ -91,22 +94,28 @@ struct SupportView: View {
             .navigationTitle("Support")
             .toolbar{
                 ToolbarItemGroup(placement: .navigationBarTrailing){
-                    NavigationLink { } label: {
+                    Button { profile = true } label: {
                         Image(systemName: "person.circle.fill")
                             .resizable()
                             .frame(width: 35,height: 35)
                             .foregroundColor(.secondary)
                     }
+                    
+                    .sheet(isPresented: $profile){
+                        ProfileView()
+                    }
+                    
+                    
                 }
             }
         }
     }
-}
-
-struct SupportView_Previews: PreviewProvider {
-    static var device1 = DeviceModel(name: "iPhone", description:" This iPhone 13", Image: "Iphone")
     
-    static var previews: some View {
-        SupportView()
+    struct SupportView_Previews: PreviewProvider {
+        static var device1 = DeviceModel(name: "iPhone", description:" This iPhone 13", Image: "Iphone")
+        
+        static var previews: some View {
+            SupportView()
+        }
     }
 }

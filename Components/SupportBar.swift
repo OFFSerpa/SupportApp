@@ -29,11 +29,12 @@ struct SupportBar: View {
                     
                     
                 }
-                .frame( width: 390, height: 45)
+                .frame( width: 360, height: 45)
                 .background(Color("background"))
                 .cornerRadius(6)
 
             }
+
             
         }
         .sheet(isPresented: $showModal){
