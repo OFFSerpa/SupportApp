@@ -26,7 +26,7 @@ struct SupportView: View {
                     //Botão de Pesquisa
                     Spacer()
                     
-                    SupportBar()
+                    SupportBar(color: Color("background"))
                     
                     divider()
                     

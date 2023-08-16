@@ -11,6 +11,8 @@ struct SupportBar: View {
     
     @State var showModal = false
     
+    var color: Color
+    
     var body: some View {
         VStack{
             Button {
@@ -30,7 +32,7 @@ struct SupportBar: View {
                     
                 }
                 .frame( width: 360, height: 45)
-                .background(Color("background"))
+                .background(color)
                 .cornerRadius(6)
 
             }
@@ -47,7 +49,7 @@ struct SupportBar: View {
     
     struct SupportBar_Previews: PreviewProvider {
         static var previews: some View {
-            SupportBar()
+            SupportBar(color: Color("background"))
         }
     }
 }

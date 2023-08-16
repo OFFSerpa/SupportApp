@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04D35C12A8D417900EA2693 /* DevicesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35C02A8D417900EA2693 /* DevicesDetailView.swift */; };
+		D04D35C32A8D475B00EA2693 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35C22A8D475B00EA2693 /* ListView.swift */; };
 		D05385762A8C0B920066DA07 /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385752A8C0B920066DA07 /* DeviceViewModel.swift */; };
 		D05385782A8C0BA40066DA07 /* ServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385772A8C0BA40066DA07 /* ServiceViewModel.swift */; };
 		D053857A2A8C0BB40066DA07 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385792A8C0BB40066DA07 /* ProductsViewModel.swift */; };
@@ -46,6 +48,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D04D35C02A8D417900EA2693 /* DevicesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesDetailView.swift; sourceTree = "<group>"; };
+		D04D35C22A8D475B00EA2693 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		D05385752A8C0B920066DA07 /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
 		D05385772A8C0BA40066DA07 /* ServiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewModel.swift; sourceTree = "<group>"; };
 		D05385792A8C0BB40066DA07 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
@@ -126,6 +130,8 @@
 				D053858C2A8C0C9D0066DA07 /* MapListView.swift */,
 				D053858E2A8C0CAC0066DA07 /* ProductListView.swift */,
 				D07186322A8C12F400D6F600 /* ProfileView.swift */,
+				D04D35C02A8D417900EA2693 /* DevicesDetailView.swift */,
+				D04D35C22A8D475B00EA2693 /* ListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -275,6 +281,7 @@
 			files = (
 				D05385892A8C0C760066DA07 /* ActivityView.swift in Sources */,
 				D05385A62A8C0DE70066DA07 /* SupportToolsButtons.swift in Sources */,
+				D04D35C12A8D417900EA2693 /* DevicesDetailView.swift in Sources */,
 				FD2374572A8C123800CF0147 /* DevicesSheetView.swift in Sources */,
 				D05385762A8C0B920066DA07 /* DeviceViewModel.swift in Sources */,
 				D053858F2A8C0CAC0066DA07 /* ProductListView.swift in Sources */,
@@ -291,6 +298,7 @@
 				D05385A42A8C0DD70066DA07 /* DevicesCard.swift in Sources */,
 				D053858B2A8C0C8C0066DA07 /* MapSearchView.swift in Sources */,
 				D053857F2A8C0BF00066DA07 /* ServiceModel.swift in Sources */,
+				D04D35C32A8D475B00EA2693 /* ListView.swift in Sources */,
 				D0D360582A8C07770078C18A /* SupportAppApp.swift in Sources */,
 				D07186332A8C12F400D6F600 /* ProfileView.swift in Sources */,
 				D05385852A8C0C5A0066DA07 /* SupportView.swift in Sources */,

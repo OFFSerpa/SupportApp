@@ -24,6 +24,10 @@ class ProductViewModel: ObservableObject{
         ProductsModel(name: "Billing & Subscriptions", Image: "Iphone"),
         ProductsModel(name: "iPad", Image: "Iphone")
  
-        
+     
     ]
+    @Published var products2: [ProductsModel] = [
+    ProductsModel(name: "Iphone", Image: "Iphone")
+    ]
+    
 }

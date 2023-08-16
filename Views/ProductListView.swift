@@ -50,7 +50,7 @@ struct ProductListView: View {
                 }
                
             }
-            .background(Color("sheet"))
+            .background(Color("background"))
             .toolbar{
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button {
