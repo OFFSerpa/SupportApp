@@ -9,7 +9,7 @@ import Foundation
 
 class ProductViewModel: ObservableObject{
     @Published var products: [ProductsModel] = [
-        ProductsModel(name: "AirPods", Image: "Iphone"),
+        ProductsModel(name: "AirPods", Image: "airpods"),
         ProductsModel(name: "AirTag", Image: "Iphone"),
         ProductsModel(name: "App Store", Image: "Iphone"),
         ProductsModel(name: "Apple Fitness", Image: "Iphone"),

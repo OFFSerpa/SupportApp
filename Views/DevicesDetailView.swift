@@ -12,7 +12,7 @@ struct DevicesDetailView: View {
     @State var sheetShow: Bool = false
     
     @Environment(\.defaultMinListRowHeight) var rowHeight
-
+    
     var body: some View {
         ScrollView{
             Image("Iphone")
@@ -42,8 +42,8 @@ struct DevicesDetailView: View {
             
             SupportBar(color: .white)
             
-            ListView()
-                .frame(height: rowHeight * 3.5 + 70, alignment: .top)
+            SupportToolsDeviceDetailList(supportTools: SupportToolsViewModel())
+                .frame(height: rowHeight * 13.5 + 70, alignment: .top)
                 .scrollDisabled(true)
             
             HStack{
@@ -54,7 +54,7 @@ struct DevicesDetailView: View {
             }
             .padding()
             
-            ServicesScrollVIew(serviceViewModel: ServiceViewModel())
+            ServiceDetailCardScrollView(serviceDetailViewModel: ServiceViewModel())
             
         }
         .background(Color("background"))

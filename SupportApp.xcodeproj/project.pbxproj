@@ -9,6 +9,12 @@
 /* Begin PBXBuildFile section */
 		D04D35C12A8D417900EA2693 /* DevicesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35C02A8D417900EA2693 /* DevicesDetailView.swift */; };
 		D04D35C32A8D475B00EA2693 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35C22A8D475B00EA2693 /* ListView.swift */; };
+		D04D35C52A8D588900EA2693 /* ServiceDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35C42A8D588900EA2693 /* ServiceDetailCard.swift */; };
+		D04D35C72A8D5ABC00EA2693 /* ServiceDetailCardScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35C62A8D5ABC00EA2693 /* ServiceDetailCardScrollView.swift */; };
+		D04D35CA2A8D60E600EA2693 /* SupportToolsDeviceDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35C92A8D60E600EA2693 /* SupportToolsDeviceDetailModel.swift */; };
+		D04D35CC2A8D626600EA2693 /* SupportToolsDeviceDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35CB2A8D626600EA2693 /* SupportToolsDeviceDetailViewModel.swift */; };
+		D04D35CE2A8D641E00EA2693 /* SupportToolsDetailDeviceCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35CD2A8D641E00EA2693 /* SupportToolsDetailDeviceCards.swift */; };
+		D04D35D02A8D666E00EA2693 /* SupportToolsDeviceDetailList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35CF2A8D666E00EA2693 /* SupportToolsDeviceDetailList.swift */; };
 		D05385762A8C0B920066DA07 /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385752A8C0B920066DA07 /* DeviceViewModel.swift */; };
 		D05385782A8C0BA40066DA07 /* ServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385772A8C0BA40066DA07 /* ServiceViewModel.swift */; };
 		D053857A2A8C0BB40066DA07 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385792A8C0BB40066DA07 /* ProductsViewModel.swift */; };
@@ -50,6 +56,12 @@
 /* Begin PBXFileReference section */
 		D04D35C02A8D417900EA2693 /* DevicesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevicesDetailView.swift; sourceTree = "<group>"; };
 		D04D35C22A8D475B00EA2693 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		D04D35C42A8D588900EA2693 /* ServiceDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailCard.swift; sourceTree = "<group>"; };
+		D04D35C62A8D5ABC00EA2693 /* ServiceDetailCardScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailCardScrollView.swift; sourceTree = "<group>"; };
+		D04D35C92A8D60E600EA2693 /* SupportToolsDeviceDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportToolsDeviceDetailModel.swift; sourceTree = "<group>"; };
+		D04D35CB2A8D626600EA2693 /* SupportToolsDeviceDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportToolsDeviceDetailViewModel.swift; sourceTree = "<group>"; };
+		D04D35CD2A8D641E00EA2693 /* SupportToolsDetailDeviceCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportToolsDetailDeviceCards.swift; sourceTree = "<group>"; };
+		D04D35CF2A8D666E00EA2693 /* SupportToolsDeviceDetailList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportToolsDeviceDetailList.swift; sourceTree = "<group>"; };
 		D05385752A8C0B920066DA07 /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
 		D05385772A8C0BA40066DA07 /* ServiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewModel.swift; sourceTree = "<group>"; };
 		D05385792A8C0BB40066DA07 /* ProductsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModel.swift; sourceTree = "<group>"; };
@@ -106,6 +118,7 @@
 				D05385752A8C0B920066DA07 /* DeviceViewModel.swift */,
 				D05385772A8C0BA40066DA07 /* ServiceViewModel.swift */,
 				D05385792A8C0BB40066DA07 /* ProductsViewModel.swift */,
+				D04D35CB2A8D626600EA2693 /* SupportToolsDeviceDetailViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -113,6 +126,7 @@
 		D053857B2A8C0BD20066DA07 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				D04D35C92A8D60E600EA2693 /* SupportToolsDeviceDetailModel.swift */,
 				D053857C2A8C0BDD0066DA07 /* DeviceModel.swift */,
 				D05385802A8C0C080066DA07 /* ProductModel.swift */,
 				D053857E2A8C0BF00066DA07 /* ServiceModel.swift */,
@@ -165,6 +179,10 @@
 				D05385AD2A8C0E220066DA07 /* ServicesScrollView.swift */,
 				D05385AF2A8C0E310066DA07 /* ProductsScrollView.swift */,
 				D05385B12A8C0E3E0066DA07 /* ProductCard.swift */,
+				D04D35C42A8D588900EA2693 /* ServiceDetailCard.swift */,
+				D04D35C62A8D5ABC00EA2693 /* ServiceDetailCardScrollView.swift */,
+				D04D35CD2A8D641E00EA2693 /* SupportToolsDetailDeviceCards.swift */,
+				D04D35CF2A8D666E00EA2693 /* SupportToolsDeviceDetailList.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -285,12 +303,15 @@
 				FD2374572A8C123800CF0147 /* DevicesSheetView.swift in Sources */,
 				D05385762A8C0B920066DA07 /* DeviceViewModel.swift in Sources */,
 				D053858F2A8C0CAC0066DA07 /* ProductListView.swift in Sources */,
+				D04D35D02A8D666E00EA2693 /* SupportToolsDeviceDetailList.swift in Sources */,
 				D053858D2A8C0C9D0066DA07 /* MapListView.swift in Sources */,
+				D04D35CC2A8D626600EA2693 /* SupportToolsDeviceDetailViewModel.swift in Sources */,
 				D05385AC2A8C0E120066DA07 /* Scroll VIew.swift in Sources */,
 				D0D3605A2A8C07770078C18A /* ContentView.swift in Sources */,
 				D05385B02A8C0E310066DA07 /* ProductsScrollView.swift in Sources */,
 				D05385952A8C0CEB0066DA07 /* Coverage.swift in Sources */,
 				D05385782A8C0BA40066DA07 /* ServiceViewModel.swift in Sources */,
+				D04D35C52A8D588900EA2693 /* ServiceDetailCard.swift in Sources */,
 				D05385AE2A8C0E220066DA07 /* ServicesScrollView.swift in Sources */,
 				D053859B2A8C0D620066DA07 /* Password.swift in Sources */,
 				D05385932A8C0CDC0066DA07 /* Subscriptions.swift in Sources */,
@@ -298,6 +319,7 @@
 				D05385A42A8C0DD70066DA07 /* DevicesCard.swift in Sources */,
 				D053858B2A8C0C8C0066DA07 /* MapSearchView.swift in Sources */,
 				D053857F2A8C0BF00066DA07 /* ServiceModel.swift in Sources */,
+				D04D35C72A8D5ABC00EA2693 /* ServiceDetailCardScrollView.swift in Sources */,
 				D04D35C32A8D475B00EA2693 /* ListView.swift in Sources */,
 				D0D360582A8C07770078C18A /* SupportAppApp.swift in Sources */,
 				D07186332A8C12F400D6F600 /* ProfileView.swift in Sources */,
@@ -307,10 +329,12 @@
 				FD2374592A8C1B4600CF0147 /* ServiceSheetView.swift in Sources */,
 				FD23745B2A8D346000CF0147 /* MoreProductsView.swift in Sources */,
 				D053859E2A8C0D9F0066DA07 /* ShowListButton.swift in Sources */,
+				D04D35CE2A8D641E00EA2693 /* SupportToolsDetailDeviceCards.swift in Sources */,
 				D05385812A8C0C080066DA07 /* ProductModel.swift in Sources */,
 				D05385B22A8C0E3E0066DA07 /* ProductCard.swift in Sources */,
 				D05385992A8C0D130066DA07 /* ServiceView.swift in Sources */,
 				D05385972A8C0CFD0066DA07 /* DeviceView.swift in Sources */,
+				D04D35CA2A8D60E600EA2693 /* SupportToolsDeviceDetailModel.swift in Sources */,
 				D05385A02A8C0DB50066DA07 /* SearchHereButton.swift in Sources */,
 				D05385A22A8C0DC60066DA07 /* SupportBar.swift in Sources */,
 				D05385A82A8C0DF30066DA07 /* divider.swift in Sources */,
