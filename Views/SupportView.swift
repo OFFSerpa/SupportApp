@@ -32,29 +32,38 @@ struct SupportView: View {
                     
                     //My Devices
                     
+                    NavigationLink{ DevicesSheetView(devices: DeviceViewModel())}
+                label: {
                     HStack {
+                        
                         Text("My Devices")
                             .font(.title2)
                             .fontWeight(.semibold)
+                            .foregroundColor(.primary)
                         Image(systemName: "chevron.right")
                             .foregroundColor(.secondary)
                             .padding(.trailing, 220)
+                        
                     }
+                }
                     
                     Scroll_View(deviceViewModel: DeviceViewModel())
                     
                     divider()
                     
                     //Support Tools
-                    
+                    NavigationLink{ ServiceSheetView()}
+                label:{
                     HStack {
                         Text("Support Tools")
                             .font(.title2)
                             .fontWeight(.semibold)
+                            .foregroundColor(.primary)
                         Image(systemName: "chevron.right")
                             .foregroundColor(.secondary)
                             .padding(.trailing, 220)
                     }
+                }
                     
                     SupportToolsButtons()
                     
@@ -77,17 +86,23 @@ struct SupportView: View {
                     ServicesScrollVIew(serviceViewModel: ServiceViewModel())
                     divider()
                     
+                    NavigationLink{ MoreProductsView()}
+                label:{
+                    
                     HStack {
                         Text("More Products")
                             .font(.title2)
                             .fontWeight(.semibold)
+                            .foregroundColor(.primary)
+                        
                         Image(systemName: "chevron.right")
                             .foregroundColor(.secondary)
                             .padding(.trailing, 195)
                     }
                     
+                }
                     ProductsScrollView(productViewModel: ProductViewModel())
-                    
+                
                 }
                 
             }
@@ -95,10 +110,9 @@ struct SupportView: View {
             .toolbar{
                 ToolbarItemGroup(placement: .navigationBarTrailing){
                     Button { profile = true } label: {
-                        Image(systemName: "person.circle.fill")
-                            .resizable()
-                            .frame(width: 35,height: 35)
-                            .foregroundColor(.secondary)
+                        Image(systemName: "person.crop.circle.fill")
+                            .font(.body)
+                            .foregroundColor(.blue)
                     }
                     
                     .sheet(isPresented: $profile){

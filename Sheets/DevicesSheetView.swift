@@ -11,13 +11,15 @@ struct DevicesSheetView: View {
     
     @Environment(\.dismiss) var dismiss
     
-    @State public var devices: [DeviceModel]
+    @StateObject public var devices: DeviceViewModel
+    
+    
     
     var body: some View {
         NavigationStack{
             List(){
                 Section {
-                    ForEach(devices) { device in
+                    ForEach(devices.devices) { device in
                         NavigationLink {
                             Text(device.name)
                         } label: {
@@ -64,13 +66,6 @@ struct DevicesSheetView: View {
 
 struct SheetView_Previews: PreviewProvider {
     static var previews: some View {
-        DevicesSheetView(devices: [
-            DeviceModel(name: "iPhone", description: "This iPhone 13", Image: "Iphone"),
-            DeviceModel(name: "MacBook Pro", description: "MacBook Pro 14'", Image: "macbook"),
-            DeviceModel(name: "MacBook Air", description: "MacBook Air 13'", Image: "Iphone"),
-            DeviceModel(name: "AirPods Pro", description: "Paired AirPods Pro", Image: "Iphone"),
-            DeviceModel(name: "Apple Watch", description: "Paired Apple Watch Series 8", Image: "Iphone")
-
-        ])
+        DevicesSheetView(devices: DeviceViewModel())
     }
 }

@@ -11,13 +11,13 @@ struct ServiceSheetView: View {
     
     @Environment(\.dismiss) var dismiss
     
-    @State public var services: [ServiceModel]
+    @StateObject public var services = ServiceViewModel()
     
     var body: some View {
         NavigationStack{
             List(){
                 Section {
-                    ForEach(services) { service in
+                    ForEach(services.services) { service in
                         
                         NavigationLink {
                             Text(service.name)
@@ -61,12 +61,6 @@ struct ServiceSheetView: View {
 
 struct ServiceSheetView_Previews: PreviewProvider {
     static var previews: some View {
-        ServiceSheetView(services: [
-            ServiceModel(name: "iCloud+", description: "100,71 GB of 200 GB Used", Image: "Iphone"),
-            ServiceModel(name: "Apple Music", description: "", Image: "macbook"),
-            ServiceModel(name: "Apple Arcade", description: "", Image: "Iphone"),
-            
-            
-        ])
+        ServiceSheetView(services: ServiceViewModel())
     }
 }

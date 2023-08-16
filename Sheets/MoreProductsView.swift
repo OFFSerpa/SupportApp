@@ -9,7 +9,7 @@ import SwiftUI
 
 struct MoreProductsView: View {
     
-    @State public var products: [ProductsModel]
+    @StateObject public var products = ProductViewModel()
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
@@ -17,7 +17,7 @@ struct MoreProductsView: View {
         NavigationStack{
                 List(){
                     Section {
-                        ForEach(products) { product in
+                        ForEach(products.products) { product in
                             
                             NavigationLink {
                                 Text(product.name)
@@ -59,23 +59,6 @@ struct MoreProductsView: View {
 
 struct MoreProductsView_Previews: PreviewProvider {
     static var previews: some View {
-        MoreProductsView(products: [
-            ProductsModel(name: "AirPods", Image: "Iphone"),
-            ProductsModel(name: "AirTag", Image: "Iphone"),
-            ProductsModel(name: "App Store", Image: "Iphone"),
-            ProductsModel(name: "Apple Fitness", Image: "Iphone"),
-            ProductsModel(name: "Apple ID", Image: "Iphone"),
-            ProductsModel(name: "Apple One", Image: "Iphone"),
-            ProductsModel(name: "Apple Pay", Image: "Iphone"),
-            ProductsModel(name: "Apple Pencil", Image: "Iphone"),
-            ProductsModel(name: "Apple TV", Image: "Iphone"),
-            ProductsModel(name: "Apple TV+", Image: "Iphone"),
-            ProductsModel(name: "Apple Watch", Image: "Iphone"),
-            ProductsModel(name: "Beats by Apple", Image: "Iphone"),
-            ProductsModel(name: "Billing & Subscriptions", Image: "Iphone"),
-            ProductsModel(name: "iPad", Image: "Iphone")
-     
-            
-        ])
+        MoreProductsView(products: ProductViewModel())
     }
 }

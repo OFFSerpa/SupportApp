@@ -14,12 +14,13 @@ struct ServicesScrollVIew: View {
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false){
-            HStack {
+            HStack(spacing: 10) {
                 ForEach(0..<serviceViewModel.services.count) { index in
                     ServiceCard(service: serviceViewModel.services[index])
                 }
-                .padding([.leading], 20)
             }
+            .padding([.leading], 20)
+
         }
         
     }

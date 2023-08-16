@@ -14,12 +14,14 @@ struct ProductsScrollView: View {
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false){
-            HStack {
+            HStack(spacing: 10) {
                 ForEach(0..<productViewModel.products.count) { index in
                     ProductCard(product: productViewModel.products[index])
                 }
-                .padding([.leading], 20)
+                
             }
+            .padding([.leading], 15)
+
         }
         
     }

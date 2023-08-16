@@ -14,12 +14,13 @@ struct Scroll_View: View {
     
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false){
-            HStack {
+            HStack(spacing: 10) {
                 ForEach(0..<deviceViewModel.devices.count) { index in
                     DevicesCard(device: deviceViewModel.devices[index])
                 }
-                .padding([.leading], 20)
             }
+            .padding([.leading], 20)
+
         }
         
     }
