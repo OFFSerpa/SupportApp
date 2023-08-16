@@ -47,7 +47,7 @@ struct ProfileView: View {
 
                 }
                 .frame(width: 365, height: 35)
-                .background(Color("background"))
+                .background(Color("inverted"))
                 .cornerRadius(6)
                 
             }
@@ -56,8 +56,8 @@ struct ProfileView: View {
             .padding(.horizontal, 20)
             Text("Update your country or region to see the service options available in your area.")
                 .frame(width: 340, alignment: .leading)
-                .font(.footnote)
                 .foregroundColor(.secondary)
+                .font(.footnote)
             
             
             
@@ -79,7 +79,7 @@ struct ProfileView: View {
 
                 }
                 .frame(width: 365, height: 35)
-                .background(Color("background"))
+                .background(Color("inverted"))
                 .cornerRadius(6)
    
             }
@@ -103,15 +103,15 @@ struct ProfileView: View {
 
                 }
                 .frame(width: 365, height: 35)
-                .background(Color("background"))
+                .background(Color("inverted"))
                 .cornerRadius(6)
                 
             }
-            
-            
-            
-            
+        
         }
+        .frame(maxHeight: .infinity)
+        .background(Color("background"))
+        
     }
 }
 

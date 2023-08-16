@@ -35,7 +35,7 @@ struct SupportToolsButtons: View {
                     }
                     
                 }
-                .frame( width: 390, height: 65)
+                .frame( width: 360, height: 65)
                 .background(Color("background"))
                 .cornerRadius(6)
                 
@@ -64,7 +64,7 @@ struct SupportToolsButtons: View {
                     }
                     
                 }
-                .frame( width: 390, height: 65)
+                .frame( width: 360, height: 65)
                 .background(Color("background"))
                 .cornerRadius(6)
                 
@@ -93,7 +93,7 @@ struct SupportToolsButtons: View {
                     }
                     
                 }
-                .frame( width: 390, height: 65)
+                .frame( width: 360, height: 65)
                 .background(Color("background"))
                 .cornerRadius(6)
                 
