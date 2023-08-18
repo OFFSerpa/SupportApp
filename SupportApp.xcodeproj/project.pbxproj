@@ -12,7 +12,6 @@
 		D04D35C52A8D588900EA2693 /* ServiceDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35C42A8D588900EA2693 /* ServiceDetailCard.swift */; };
 		D04D35C72A8D5ABC00EA2693 /* ServiceDetailCardScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35C62A8D5ABC00EA2693 /* ServiceDetailCardScrollView.swift */; };
 		D04D35CA2A8D60E600EA2693 /* SupportToolsDeviceDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35C92A8D60E600EA2693 /* SupportToolsDeviceDetailModel.swift */; };
-		D04D35CC2A8D626600EA2693 /* SupportToolsDeviceDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35CB2A8D626600EA2693 /* SupportToolsDeviceDetailViewModel.swift */; };
 		D04D35CE2A8D641E00EA2693 /* SupportToolsDetailDeviceCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35CD2A8D641E00EA2693 /* SupportToolsDetailDeviceCards.swift */; };
 		D04D35D02A8D666E00EA2693 /* SupportToolsDeviceDetailList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04D35CF2A8D666E00EA2693 /* SupportToolsDeviceDetailList.swift */; };
 		D05385762A8C0B920066DA07 /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05385752A8C0B920066DA07 /* DeviceViewModel.swift */; };
@@ -54,6 +53,7 @@
 		FDC172B12A8D5B5300538DD1 /* IDAppleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC172B02A8D5B5300538DD1 /* IDAppleView.swift */; };
 		FDC172B52A8D5C4400538DD1 /* IDAppleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC172B42A8D5C4400538DD1 /* IDAppleModel.swift */; };
 		FDC172B72A8D5CA600538DD1 /* IDAppleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC172B62A8D5CA600538DD1 /* IDAppleViewModel.swift */; };
+		FDE0BDDE2A8FFD0C00995204 /* SupportToolsDeviceDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE0BDDD2A8FFD0C00995204 /* SupportToolsDeviceDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,7 +62,6 @@
 		D04D35C42A8D588900EA2693 /* ServiceDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailCard.swift; sourceTree = "<group>"; };
 		D04D35C62A8D5ABC00EA2693 /* ServiceDetailCardScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailCardScrollView.swift; sourceTree = "<group>"; };
 		D04D35C92A8D60E600EA2693 /* SupportToolsDeviceDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportToolsDeviceDetailModel.swift; sourceTree = "<group>"; };
-		D04D35CB2A8D626600EA2693 /* SupportToolsDeviceDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportToolsDeviceDetailViewModel.swift; sourceTree = "<group>"; };
 		D04D35CD2A8D641E00EA2693 /* SupportToolsDetailDeviceCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportToolsDetailDeviceCards.swift; sourceTree = "<group>"; };
 		D04D35CF2A8D666E00EA2693 /* SupportToolsDeviceDetailList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportToolsDeviceDetailList.swift; sourceTree = "<group>"; };
 		D05385752A8C0B920066DA07 /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
@@ -105,6 +104,7 @@
 		FDC172B02A8D5B5300538DD1 /* IDAppleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDAppleView.swift; sourceTree = "<group>"; };
 		FDC172B42A8D5C4400538DD1 /* IDAppleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDAppleModel.swift; sourceTree = "<group>"; };
 		FDC172B62A8D5CA600538DD1 /* IDAppleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDAppleViewModel.swift; sourceTree = "<group>"; };
+		FDE0BDDD2A8FFD0C00995204 /* SupportToolsDeviceDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportToolsDeviceDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,8 +124,8 @@
 				D05385752A8C0B920066DA07 /* DeviceViewModel.swift */,
 				FDC172B62A8D5CA600538DD1 /* IDAppleViewModel.swift */,
 				D05385772A8C0BA40066DA07 /* ServiceViewModel.swift */,
+				FDE0BDDD2A8FFD0C00995204 /* SupportToolsDeviceDetailViewModel.swift */,
 				D05385792A8C0BB40066DA07 /* ProductsViewModel.swift */,
-				D04D35CB2A8D626600EA2693 /* SupportToolsDeviceDetailViewModel.swift */,
 			);
 			path = "View Models";
 			sourceTree = "<group>";
@@ -315,7 +315,6 @@
 				D053858F2A8C0CAC0066DA07 /* ProductListView.swift in Sources */,
 				D04D35D02A8D666E00EA2693 /* SupportToolsDeviceDetailList.swift in Sources */,
 				D053858D2A8C0C9D0066DA07 /* MapListView.swift in Sources */,
-				D04D35CC2A8D626600EA2693 /* SupportToolsDeviceDetailViewModel.swift in Sources */,
 				D05385AC2A8C0E120066DA07 /* Scroll VIew.swift in Sources */,
 				D0D3605A2A8C07770078C18A /* ContentView.swift in Sources */,
 				D05385B02A8C0E310066DA07 /* ProductsScrollView.swift in Sources */,
@@ -344,6 +343,7 @@
 				D05385812A8C0C080066DA07 /* ProductModel.swift in Sources */,
 				D05385B22A8C0E3E0066DA07 /* ProductCard.swift in Sources */,
 				D05385992A8C0D130066DA07 /* ServiceView.swift in Sources */,
+				FDE0BDDE2A8FFD0C00995204 /* SupportToolsDeviceDetailViewModel.swift in Sources */,
 				D05385972A8C0CFD0066DA07 /* DeviceView.swift in Sources */,
 				D04D35CA2A8D60E600EA2693 /* SupportToolsDeviceDetailModel.swift in Sources */,
 				D05385A02A8C0DB50066DA07 /* SearchHereButton.swift in Sources */,
