@@ -36,6 +36,9 @@ struct SearchHereButton: View {
                         .bold()
                 } else{
                     HStack{
+                        ProgressView()
+                            .progressViewStyle(CircularProgressViewStyle(tint: .gray))
+                            .padding(.trailing, 1)
                         Text("Buscando")
                             .foregroundColor(.gray)
                             .bold()
