@@ -9,12 +9,12 @@ import SwiftUI
 
 struct ListView: View {
     
-    @StateObject var services = ServiceViewModel()
+    @StateObject var services = ProductViewModel()
     
     var body: some View {
         NavigationStack{
             List(){
-                    ForEach(services.services) { service in
+                ForEach(services.products) { service in
                         
                         NavigationLink {
                             Text(service.name)
